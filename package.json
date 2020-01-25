@@ -1,0 +1,27 @@
+{
+  "name": "ya-locale",
+  "version": "1.0.1",
+  "description": "Locale file loader and producer",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test NAME=envName node test",
+    "prettier": "prettier --write --no-semi --single-quote **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekchuank/ya-locale.git"
+  },
+  "keywords": [
+    "locale",
+    "loader"
+  ],
+  "author": "derekchuank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekchuank/ya-locale/issues"
+  },
+  "homepage": "https://github.com/derekchuank/ya-locale#readme",
+  "dependencies": {
+    "ya-require-dir": "^1.0.0"
+  }
+}
